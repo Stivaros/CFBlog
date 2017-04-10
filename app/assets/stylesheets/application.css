@@ -60,6 +60,7 @@ html {
 
 .navbar-default .navbar-nav>li>a {
   color: #F06172;
+  font-size: 1.25em;
 }
 .navbar-default .navbar-nav>li>a:hover {
   color: #9A0416;
@@ -120,3 +121,7 @@ a:hover {
    color: #9A0416;
    text-decoration: none;
 }
+
+p { font-size: 1.25em; }
+
+li { font-size: 1.25em; }
