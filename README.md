@@ -1,24 +1,7 @@
-# README
+# CF Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails application is an optional module, creating a blog.
 
-Things you may want to cover:
+## To Do / Bugs
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+__None at this time__
