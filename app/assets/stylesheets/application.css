@@ -103,8 +103,16 @@ aside h2 {
   background-color: #fff;
   border-color: #1F201B;
   border-top: 1px solid #004C3F;
-  padding-top: 1%;
   color: #F06172;
+  padding-top: 1%;
+}
+
+.footer p {
+  font-size: 1em;
+}
+
+.footer a {
+  color: #73000D;
 }
 
 /* Typography */
