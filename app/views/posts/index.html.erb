@@ -29,7 +29,11 @@
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <p><%= link_to 'Show', post %> / <%= link_to 'Edit', edit_post_path(post) %> / <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+          <% if can? :manage, post %>
+            <p><%= link_to 'Show', post %> / <%= link_to 'Edit', edit_post_path(post) %> / <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+          <% else %>
+            <p><%= link_to 'Show Post & Comments', post %></p>
+          <% end %>
         </div>
       </div>
     </aside>
