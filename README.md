@@ -16,3 +16,4 @@ This Rails application is an optional module, creating a blog.
 - [ ] Validate comments to prevent empty messages.
 - [ ] Add pagination for index page.
 - [ ] Add pagination for comments on article page.
+- [ ] Update views for devise forms.
