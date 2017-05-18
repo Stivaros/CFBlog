@@ -9,6 +9,7 @@ This Rails application is an optional module, creating a blog.
 - [x] Install Devise & CanCanCan.
 - [x] Restrict article creation and editing to users only.
 - [x] Only show "edit" links to logged in users.
+
 ~~- [ ] Show "new" link to all users, redirect users who are not logged in to sign in page.~~
 - [x] _Hide new post link to users that aren't logged in._
 - [ ] Add Comments model.
