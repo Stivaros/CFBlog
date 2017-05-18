@@ -12,7 +12,7 @@ This Rails application is an optional module, creating a blog.
 
 ~~- [ ] Show "new" link to all users, redirect users who are not logged in to sign in page.~~
 - [x] _Hide new post link to users that aren't logged in._
-- [ ] Add Comments model.
+- [x] Add Comments model.
 - [ ] Add a form underneath articles to allow readers to add comments. 
 - [ ] Allow authorised users to delete comments.
 - [ ] Validate comments to prevent empty messages.
