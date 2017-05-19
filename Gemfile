@@ -38,6 +38,9 @@ gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'b
 # CanCanCan for authorisations and permissions
 gem 'cancancan', '~> 2.0'
 
+# Use will_paginate for pagination of posts and comments
+gem 'will_paginate', '~> 3.1.1'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
