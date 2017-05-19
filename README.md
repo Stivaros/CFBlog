@@ -16,7 +16,7 @@ This Rails application is an optional module, creating a blog.
 - [x] Add a form underneath articles to allow readers to add comments. 
 - [x] Allow authorised users to delete comments.
 - [x] Validate comments to prevent empty messages.
-- [ ] Add pagination for index page.
-- [ ] Add pagination for comments on article page.
+- [x] Add pagination for index page.
+- [x] Add pagination for comments on article page.
 - [ ] Update views for devise forms.
 - [ ] Overwrite bootstrap button styles to remove border-radius.
