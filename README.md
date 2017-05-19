@@ -19,3 +19,4 @@ This Rails application is an optional module, creating a blog.
 - [ ] Add pagination for index page.
 - [ ] Add pagination for comments on article page.
 - [ ] Update views for devise forms.
+- [ ] Overwrite bootstrap button styles to remove border-radius.
