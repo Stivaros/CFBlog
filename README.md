@@ -14,7 +14,7 @@ This Rails application is an optional module, creating a blog.
 - [x] _Hide new post link to users that aren't logged in._
 - [x] Add Comments model.
 - [x] Add a form underneath articles to allow readers to add comments. 
-- [ ] Allow authorised users to delete comments.
+- [x] Allow authorised users to delete comments.
 - [ ] Validate comments to prevent empty messages.
 - [ ] Add pagination for index page.
 - [ ] Add pagination for comments on article page.
