@@ -25,6 +25,7 @@
 <div class="row">
   <div class="col-md-6">
     <%= render 'comments' %>
+    <%= will_paginate @comments, class: 'text-center' %>
   </div>
   <div class="col-md-6">
     <%= render 'new_comment' %>
