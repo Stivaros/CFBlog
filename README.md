@@ -18,5 +18,5 @@ This Rails application is an optional module, creating a blog.
 - [x] Validate comments to prevent empty messages.
 - [x] Add pagination for index page.
 - [x] Add pagination for comments on article page.
-- [ ] Update views for devise forms.
+- [x] Update views for devise forms.
 - [ ] Overwrite bootstrap button styles to remove border-radius.
