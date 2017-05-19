@@ -1,6 +1,5 @@
 <% content_for :page_title, @post.title %>
 
-<p id="notice"><%= notice %></p>
 <section class="row">
   <header class="col-xs-12">
     <h3>By <%= @post.author %> on <%= @post.created_at.strftime("%d/%m/%Y") %>, filed under <%= @post.category %> </h3>
