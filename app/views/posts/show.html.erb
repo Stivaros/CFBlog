@@ -12,10 +12,23 @@
   </article>
 </main>
 
-<%= render 'comments' %>
+<div class="row post-article-nav">
+  <div class="col-xs-12">
+    <% if can? :manage, @post %>
+      <%= link_to 'Edit Article', edit_post_path(@post) %> | <%= link_to 'Back to All Posts', posts_path %>
+    <% else %>
+      <%= link_to 'Back to All Posts', posts_path %>
+    <% end %>
+  </div>
+</div>
 
-<% if can? :manage, @post %>
-  <%= link_to 'Edit', edit_post_path(@post) %> | <%= link_to 'Back', posts_path %>
-<% else %>
-  <%= link_to 'Back all posts', posts_path %>
-<% end %>
+<div class="row">
+  <div class="col-md-6">
+    <%= render 'comments' %>
+  </div>
+  <div class="col-md-6">
+    <%= render 'new_comment' %>
+  </div>
+</div>
+
+

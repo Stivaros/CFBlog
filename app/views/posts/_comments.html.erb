@@ -1,14 +1,18 @@
-<div class="row">
-  <div class="col-xs-12">
-    <h3 class="comment-title">Comments:</h3>
-  </div>
-</div>
-<% @comments.each do |comment| %>
+<% if @post.comments.any? %>
   <div class="row">
-    <div class="col-xs-12 comment-show">
-      <hr>
-      <p><small><em><%= "#{time_ago_in_words(comment.created_at)} ago" %></em></small></p>
-      <p><%= comment.body %></p>
+    <div class="col-xs-12">
+      <h3 class="comment-title">Comments:</h3>
     </div>
   </div>
+  <% @comments.each do |comment| %>
+    <div class="row">
+      <div class="col-xs-12 comment-show">
+        <hr>
+        <% if comment.created_at %>
+          <p><small><em><%= "#{time_ago_in_words(comment.created_at)} ago" %></em></small></p>
+        <% end %>
+        <p><%= comment.body %></p>
+      </div>
+    </div>
+  <% end %>
 <% end %>

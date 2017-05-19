@@ -1,0 +1,25 @@
+<% if can?(:create, Comment) %>
+  <div class="row">
+      <div class="col-xs-12">
+        <h3 class="comment-title">Add Comment:</h3>
+      </div>
+    </div>
+    <%= form_for([@post, @post.comments.build]) do |f| %>
+      <div class="row form-group">
+        <div class="col-md-12">
+          <p>
+            <%= f.label :body, "Your Comment" %>
+            <%= f.text_area :body, class: 'form-control' %>
+          </p>
+        </div>
+      </div>
+      <div class="row form-group">
+        <div class="col-xs-12">
+          <p>
+            <%= f.submit class: 'btn btn-primary' %>
+          </p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+<% end %>
